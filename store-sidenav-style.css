@@ -1,0 +1,68 @@
+body{
+	margin:0;
+	background-color: white;
+	font-family: "Helvetica", Georgia, Serif;
+	list-style: none;
+}
+
+#mySearchbar {
+    background-image: radial-gradient(#111111 , #2E2E2E 70%);
+    width: 80%;
+    margin: auto;
+    display: block;
+    font-size: 16px;
+    color: white;
+    padding: 12px 20px 12px 40px;
+    border: 0;
+    margin-bottom: 12px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+
+
+.filter-app{
+    background-image: radial-gradient(ellipse at 5% 12%, #A57876, transparent), radial-gradient(ellipse at 70% 70%, #704746, transparent);
+    
+	width: 96%;
+    margin: auto;
+    margin-bottom: 5%;
+    margin-top: 1%;
+    color: white;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto;
+    max-width: 1200px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.filter-app div{
+    display: block;
+}
+
+.filter-app h2{
+    text-align: center;
+    margin: 0;
+    padding: 5%;
+}
+
+.filter-app ul li{
+    list-style-type: none;
+    width: 10%;
+}
+
+#catList{
+}
+
+#catList li{
+    width: 150px;
+}
+
+#catList li label{
+    
+}
+
+.filter{
+    
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<title>VR</title>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="description" content="Online Store">
+		<meta name="keywords" content="VR, Kits, Computer, Tech, Smartphone"> 
+		
+		
+		<link rel="stylesheet" type="text/css" href="mystyle.css">
+		<link rel="stylesheet" type="text/css" href="hd-style.css">
+		<link rel="stylesheet" type="text/css" href="globalnav-style.css">
+		<link rel="stylesheet" type="text/css" href="footer-style.css">
+		<link rel="stylesheet" type="text/css" href="body-style.css">
+        
+        
+		<link rel="apple-touch-icon" sizes="180x180" href="./icon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="./icon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="./icon/favicon-16x16.png">
+		<link rel="manifest" href="./icon/site.webmanifest">
+		<link rel="mask-icon" href="./icon/safari-pinned-tab.svg" color="#5bbad5">
+		<meta name="msapplication-TileColor" content="#2b5797">
+		<meta name="theme-color" content="#ffffff">
+	
+	</head>
+	
+	<body>
+		<header>
+			<section id="header-text">
+				
+				<h1>
+					<span id="hd-txt-title">UselesTec</span>
+				</h1>
+				<p>Give us all your money</p>
+			</section>
+			
+		</header>
+		
+		<nav id="globalnav">
+            
+            <div class="menu">
+                <div class="app-menu">
+                    <ul>
+                        <li><a href="./index.html">HOME</a></li>
+                        <li><a href="./vr.html">VR</a></li>
+                        <li><a href="./store.html">STORE</a>
+                            <ul>
+                                <li><a href="#phones">Phones</a></li>
+                                <li><a href="#tv">TVs</a></li>
+                                <li><a href="#notebook">Notebooks</a></li>
+                                <li><a href="#headphone">Headphones</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="./about.html">ABOUT</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <ul id= "mobile">
+                <li><button id="menu-icon" type="button"><img src="./images/menu2.png" alt="menu-icon"  class="img-btn" id="menu-icon-img"></button></li>
+                <li><a href="./index.html" id="logo"><img src="./images/home.png" alt="logo" class="img-btn"></a></li>
+                <li><a href="./checkout.html" id="shopping-cart"><img src="./images/shopping-cart.png" alt="shopping-cart" class="img-btn"></a></li>
+            </ul>
+            
+			<ul id= "non-mobile">
+				<li><a href="./index.html">Home</a></li>
+				<li><a href="./vr.html">VR</a></li>
+				<li class="dropbtn">
+					<a href="./store.html" class="store-dropdown-button">Store</a>
+					<ul id="dropdown-content">
+						<li><a href="#phones">Phones</a></li>
+						<li><a href="#tv">TVs</a></li>
+                        <li><a href="#notebook">Notebooks</a></li>
+						<li><a href="#headphone">Headphones</a></li>
+					</ul>
+				</li>
+				<li><a href="./about.html">About</a></li>
+                <!--
+                <li><a href="./checkout.html" id="shopping-cart"></a></li>
+                -->
+			</ul>
+            <script src="mobile-menu.js"></script>
+		</nav>
+		
+        <div class = "about-content">
+            <section>
+
+                <h2>Description</h2>
+
+                <h3>About the Website</h3>
+                <code></code>
+                <p>This website depicts my attempt at creating a tech/hardware online store for a Universiy project. None of the products displayed are actually for sale or even real, for that matter.
+                </p>
+                <p>All the images, videos and icons used in this web project are <strong>not</strong> meant for commercial use. For any copyright issues, please contact me directly <a href="mailto:mihai.purecel98@gmail.com?Subject=Regarding%20UselesTec%20Website" target="_top">here</a> so I can take them off, before taking any legal action.</p>
+
+                <h2>About Me</h2>
+                <p>I am a 2nd year student at <abbr title="Facultatea de Matematica si Informatica">FMI</abbr> in the University of Bucharest.</p>
+
+
+            </section>
+            
+            <form>
+                <h2>Subscribe</h2>
+                <p>For daily updates on our latest work, please consider subscribing to our Newsletter.<br/>You can unsubscribe anytime you consider by clicking on the "Unsubscribe" link we provide on any e-mail that we send, so really you got nothing to lose!</p>
+                
+                <div id = "subscribe-wrapper">
+                    <input type="text" placeholder="Email address" name="mail" required>
+                    <input type="submit" value="Subscribe">
+                    <label>
+                        <input type="checkbox" checked="checked" name="subscribe"> Notify me when important changes happen to the website
+                    </label><br/>
+                    <label>
+                        <input type="checkbox" checked="checked" name="subscribe"> Send me your latest offers
+                    </label><br/>
+                </div>
+                
+            </form>
+        </div>
+		
+		<footer>
+			<ul class="footer_list">
+				<li>UseleslTec &copy; 2018</li>
+				<li class="contact"><a href="mailto:mihai.purecel98@gmail.com?Subject=Regarding%20UselesTec%20Website" target="_top">Contact</a></li>
+				<li class="login"><a href="#login">Login</a></li>
+			</ul>
+			
+			<!--<div id="social icons"></div>-->
+			<hr id="foot_hr"/>
+			<div id="disclaimer">
+				<p> This Website was created to illustrate various web programming techniques only. It is not intended for
+				commercial use.</p>
+			</div>
+		</footer>
+		
+	
+	</body>
+	
+	
+</html>

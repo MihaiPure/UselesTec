@@ -1,0 +1,104 @@
+
+
+body{
+	margin:0;
+	background-color: white;
+	font-family: "Helvetica", Georgia, Serif;
+}
+
+
+
+@font-face{
+	font-family: "Reckoner";
+	src: url(./fonts/Reckoner_Typeface/Reckoner_Bold.ttf) format("truetype");
+	font-weight: normal;
+}
+
+header{
+	background-color: rgb(84, 84, 84);
+	border-color: rgb(84, 84, 84);
+	padding:0;
+	margin: 0;
+	border: 0;
+	overflow:hidden;
+	background-image:url("./images/header_bk1.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#head-wrapper{
+    height: 300px;
+    
+}
+
+
+#header-text{
+
+	
+	color: white;
+	font-family:"Reckoner",Georgia, Serif;
+	font-size: 300%;
+	text-align: justify;
+	padding-left: 10%;
+    padding-top: 63px;
+    padding-bottom: 63px;
+    display:block;
+    height: auto;
+	
+}
+#header-text h1{
+	padding:0;
+	margin:0;
+	font-size:260%;
+}
+#header-text p{
+	padding:0;
+	margin:0;
+}
+
+@media only screen and (max-width: 1079px){
+    #head-wrapper{
+        height: 250px;
+        overflow: hidden;
+    }
+    #header-text{
+        padding-left: 10%;
+        padding-top: 38px;
+        padding-bottom: 38px;
+    }
+}
+
+@media only screen and (max-width: 719px){
+    #head-wrapper{
+        height: 200px;
+        overflow: hidden;
+    }
+    #header-text{
+        font-size: 250%;
+        padding-left: 10%;
+        padding-top: 28px;
+        padding-bottom: 28px;
+    }
+}
+
+@media only screen and (max-width: 420px){
+    #head-wrapper{
+        height: 100px;
+        overflow: hidden;
+    }
+    #header-text{
+        font-size: 150%;
+        padding-left: 10%;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        width: auto;
+    }
+    
+}
+
+
+
+
+
+

@@ -1,0 +1,167 @@
+
+
+body{
+	margin:0;
+	background-color: white;
+	font-family: "Helvetica", Georgia, Serif;
+}
+#content-wrapper{
+    font-size: 1vw;
+}
+
+/*################################ FIRST PROMO ###############################################################*/
+
+.promo1{
+	color: white;
+	width: 100%;
+	background-color: black;
+	display: grid;
+	grid-template-columns: 50% 50%;
+}
+
+#promo1_text{
+	font-size: 200%;
+	place-self:center;
+	text-align: center;
+}
+#promo1_text p{
+    font-size: 1em;
+    
+}
+
+#promo1-ul{
+	list-style-type: none;
+	padding:0;
+	margin: 0;
+	
+}
+
+#promo1-ul li{
+	display: inline;
+	padding: 50px;
+	white-space: nowrap;
+    padding: 0;
+    margin: 0;
+}
+
+#promo1-ul li a{
+	text-decoration: none;
+    padding: 0;
+    margin: 0;
+	color: #A57876;
+}
+
+#promo1-ul li a:hover{
+    color: #DDADAA;
+	background-image: radial-gradient(#704746 1%, black 60%);
+	
+}
+
+.img1{
+	vertical-align:middle;
+	max-width:100%;
+	max-height: 100vh;
+}
+
+/*############################## PROMO 2 AND 3 #################################################################*/
+.row{
+	margin: 0.5em;
+	display:grid;
+	grid-template-columns: 49.75% 49.75%;
+	grid-template-rows: auto;
+	grid-row-gap: 5px;
+	grid-column-gap: 0.5%;
+}
+
+
+#left_col{
+	background: url("./images/purple-blur3.jpg");
+	background-size: cover;
+}
+
+.left_col_text{
+	text-align: center;
+	color: white;
+    text-shadow: 0px 0px 4px black;
+    font-weight: bold;
+}
+.left_col_text p{
+    margin:0;
+    font-size: 1.5em;
+}
+
+#right_col{
+	background-image: url("./images/purple-blur.jpg");
+	background-size: cover;
+}
+
+.block-img{
+	width: 100%;
+	height: auto;
+}
+
+.column{
+	box-sizing: border-box;
+	
+}
+
+.row:after{
+	content:"";
+	display: table;
+	clear: both;
+	
+}
+
+@media screen and (max-width: 1250px) {
+    #content-wrapper{
+        font-size: 1.5vw;
+    }
+
+}
+
+@media screen and (max-width: 720px) {
+    .promo1{
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+        grid-gap: 0;
+        
+        font-size: 2vw;
+    }
+    
+    .promo1 p{
+        font-size: 1.4em;
+    }
+}
+
+
+@media screen and (max-width: 500px) {
+    .promo1{
+        
+    }
+    .row{
+        grid-template-columns: 100%;
+        grid-template-rows: auto;
+        grid-row-gap: 5px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    #content-wrapper{
+        font-size: 3vw;
+    }
+
+}
+
+
+
+/*############################## PROMO 4 AND 5 #################################################################*/
+
+#left_col2{
+	background: url("./images/blur-bg.jpg");
+	background-size: cover;
+}
+
+#right_col2{
+	background-image: url("./images/bg6.jpg");
+	background-size: cover;
+}
+

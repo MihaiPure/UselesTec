@@ -1,0 +1,60 @@
+/*############################### FOOTER ################################################################*/
+
+footer{
+	margin-top: 2%;
+	color:rgb(91, 91, 91);
+	border: 3px solid rgb(25, 25, 25);
+	background-color: rgb(25, 25, 25);
+	padding:10px;
+	text-align:center;
+    font-size: 1em;
+}
+
+footer a{
+	color:rgb(206, 206, 206);
+	text-decoration:none;
+}
+footer a:hover{
+	color:rgb(160, 160, 160);
+	text-decoration:none;
+}
+
+.footer_list{
+	list-style-type: none;
+	padding:0;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer_list li{
+	display:inline;
+	padding-left:5%;
+    padding-right:5%;
+	
+	
+}
+
+#foot_hr{
+	height:0px;
+	max-width: 500px;
+    min-width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: solid;
+	border-width: 1px;
+	border-color: rgb(91, 91, 91);
+
+	border-radius: 15px;
+	background-color: rgb(91, 91, 91);
+}
+
+#disclaimer{
+	max-width: 500px;
+    min-width: 50%;
+	margin-left:auto;
+	margin-right:auto;
+	text-align: justify;
+	font-size: 1em;
+	
+}

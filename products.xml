@@ -1,0 +1,244 @@
+<prducts>
+    
+    <product category = "phones">
+        <name>SomeFone X</name>
+        <price>1099</price>
+        <manufacturer>Mango</manufacturer>
+        <imageURL>./images/SomeFoneXBlack.png</imageURL>
+        <color>Black</color>
+    </product>
+    
+    <product category = "phones">
+        <name>SomeFone X</name>
+        <price>1099</price>
+        <manufacturer>Mango</manufacturer>
+        <imageURL>./images/SomeFoneXSilver.png</imageURL>
+        <color>Silver</color>
+    </product>
+    
+    <product category = "phones">
+        <name>SomeFone X</name>
+        <price>1099</price>
+        <manufacturer>Mango</manufacturer>
+        <imageURL>./images/SomeFoneXRed.png</imageURL>
+        <color>Red</color>
+    </product>
+    
+    
+    <product category = "phones">
+        <name>SomeFone Y</name>
+        <price>899</price>
+        <manufacturer>Mango</manufacturer>
+        <imageURL>./images/SomeFoneYWhite.png</imageURL>
+        <color>White</color>
+    </product>
+    
+    <product category = "phones">
+        <name>SomeFone Y</name>
+        <price>899</price>
+        <manufacturer>Mango</manufacturer>
+        <imageURL>./images/SomeFoneYBlack.png</imageURL>
+        <color>Black</color>
+    </product>
+    
+    <product category = "phones">
+        <name>SomeFone Y</name>
+        <price>899</price>
+        <manufacturer>Mango</manufacturer>
+        <imageURL>./images/SomeFoneYRed.png</imageURL>
+        <color>Red</color>
+    </product>
+    
+    <product category = "phones">
+        <name>SomeFone Y</name>
+        <price>899</price>
+        <manufacturer>Mango</manufacturer>
+        <imageURL>./images/SomeFoneYYellow.png</imageURL>
+        <color>Yellow</color>
+    </product>
+    
+    <product category = "phones">
+        <name>SomeFone Y</name>
+        <price>899</price>
+        <manufacturer>Mango</manufacturer>
+        <imageURL>./images/SomeFoneYBlue.png</imageURL>
+        <color>Blue</color>
+    </product>
+    
+    <product category = "phones">
+        <name>OdaFone</name>
+        <price>949</price>
+        <manufacturer>Tango</manufacturer>
+        <imageURL>./images/OdaFoneBlack.png</imageURL>
+        <color>Black</color>
+    </product>
+    
+    <product category = "phones">
+        <name>OdaFone</name>
+        <price>949</price>
+        <manufacturer>Tango</manufacturer>
+        <imageURL>./images/OdaFoneWhite.png</imageURL>
+        <color>White</color>
+    </product>
+    
+    <product category = "phones">
+        <name>OdaFone</name>
+        <price>949</price>
+        <manufacturer>Tango</manufacturer>
+        <imageURL>./images/OdaFoneRed.png</imageURL>
+        <color>Red</color>
+    </product>
+    
+    <product category = "phones">
+        <name>OdaFone Pro</name>
+        <price>1069</price>
+        <manufacturer>Tango</manufacturer>
+        <imageURL>./images/OdaFoneProBlack.png</imageURL>
+        <color>Black</color>
+    </product>
+    
+    <product category = "phones">
+        <name>OdaFone Pro</name>
+        <price>1069</price>
+        <manufacturer>Tango</manufacturer>
+        <imageURL>./images/OdaFoneProPink.png</imageURL>
+        <color>Pink</color>
+    </product>
+    
+    <product category = "phones">
+        <name>OdaFone Pro</name>
+        <price>1069</price>
+        <manufacturer>Tango</manufacturer>
+        <imageURL>./images/OdaFoneProWhite.png</imageURL>
+        <color>White</color>
+    </product>
+    
+    <product category = "headphones">
+        <name>Groot</name>
+        <price>399</price>
+        <manufacturer>Beets</manufacturer>
+        <imageURL>./images/BeetsGrootWhite.png</imageURL>
+        <color>White</color>
+    </product>
+    
+    <product category = "headphones">
+        <name>Groot</name>
+        <price>399</price>
+        <manufacturer>Beets</manufacturer>
+        <imageURL>./images/BeetsGrootBlack.png</imageURL>
+        <color>Black</color>
+    </product>
+    
+    <product category = "headphones">
+        <name>Groot</name>
+        <price>429</price>
+        <manufacturer>Beets</manufacturer>
+        <imageURL>./images/BeetsGrootRed.png</imageURL>
+        <color>Red</color>
+    </product>
+    
+    <product category = "headphones">
+        <name>Tiger</name>
+        <price>249</price>
+        <manufacturer>SoundScape</manufacturer>
+        <imageURL>./images/SoundScapeTigerSilver.png</imageURL>
+        <color>Silver</color>
+    </product>
+    
+    <product category = "headphones">
+        <name>Tiger</name>
+        <price>249</price>
+        <manufacturer>SoundScape</manufacturer>
+        <imageURL>./images/SoundScapeTigerGreen.png</imageURL>
+        <color>Green</color>
+    </product>
+    
+    <product category = "headphones">
+        <name>Gorilla</name>
+        <price>199</price>
+        <manufacturer>SoundScape</manufacturer>
+        <imageURL>./images/SoundScapeGorillaBlack.png</imageURL>
+        <color>Black</color>
+    </product>
+    
+    <product category = "headphones">
+        <name>Gorilla</name>
+        <price>189</price>
+        <manufacturer>SoundScape</manufacturer>
+        <imageURL>./images/SoundScapeGorillaBlue.png</imageURL>
+        <color>Blue</color>
+    </product>
+    <!--
+    <product>
+        <name></name>
+        <price></price>
+        <manufacturer></manufacturer>
+        <imageURL></imageURL>
+        <color></color>
+    </product>
+    
+    <product>
+        <name></name>
+        <price></price>
+        <manufacturer></manufacturer>
+        <imageURL></imageURL>
+        <color></color>
+    </product>
+    
+    <product>
+        <name></name>
+        <price></price>
+        <manufacturer></manufacturer>
+        <imageURL></imageURL>
+        <color></color>
+    </product>
+    
+    <product>
+        <name></name>
+        <price></price>
+        <manufacturer></manufacturer>
+        <imageURL></imageURL>
+        <color></color>
+    </product>
+    
+    <product>
+        <name></name>
+        <price></price>
+        <manufacturer></manufacturer>
+        <imageURL></imageURL>
+        <color></color>
+    </product>
+    
+    <product>
+        <name></name>
+        <price></price>
+        <manufacturer></manufacturer>
+        <imageURL></imageURL>
+        <color></color>
+    </product>
+    
+    <product>
+        <name></name>
+        <price></price>
+        <manufacturer></manufacturer>
+        <imageURL></imageURL>
+        <color></color>
+    </product>
+    
+    <product>
+        <name></name>
+        <price></price>
+        <manufacturer></manufacturer>
+        <imageURL></imageURL>
+        <color></color>
+    </product>
+    
+    <product>
+        <name></name>
+        <price></price>
+        <manufacturer></manufacturer>
+        <imageURL></imageURL>
+        <color></color>
+    </product>
+    -->
+</prducts>
